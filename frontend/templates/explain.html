@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bridge</title>
+    <link href="/static/css/explain.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="head display-flex justify-content-between">
+        <div class="left">
+            <button onclick="window.location.href='/'"><i class="fa-solid fa-arrow-left"></i></button>
+        </div>
+        <h3>"{{topic}}"</h3>
+        <div class="right">
+            <button onclick="window.location.href='/quiz'"><i class="fa-solid fa-arrow-right"></i></button>
+        </div> 
+    </div>
+    <div class="content m-3">
+        <div class="welcome display-flex flex-column">
+            <h2>Hello!</h2>
+            <p>Welcome to your next adventure at <b>Explain to Me Like I'm 5!</b></p>
+            <p>Whether you're a <span class="highlight">curious learner</span> or just looking for a fun way to understand complex topics, our simple summaries, interactive quizzes, and fascinating facts are designed to make education engaging and accessible.</p>
+            <p><b>Ready to learn something new?</b> Let's get started!</p>
+            <p>Cheers,</p>
+            <p>The Explain to Me Like I'm 5 Team</p>
+        </div>
+        <div class="explain">
+            <h4 class="text-primary"><b>EXPLAINATION</b></h4>
+            {{explaination | safe}}
+        </div>
+        <div class="forward">
+            <p><b>Loving your experience with Explain to Me Like I'm 5?</b> <br> Feel free to spread the word to others! Sharing helps fun, and simple educational content for all.</p>
+        </div>
+        <div class="facts">
+            <h4 class="text-primary"><b>FACTS</b></h4>
+            {{facts | safe}}
+        </div>
+        <div class="summary">
+            <h4 class="text-primary"><b>SUMMARY</b></h4>
+            {{summary | safe}}
+        </div>
+        <div class="links">
+            <h4 class="text-primary"><b>LINKS FOR FUTHER REFERNCE</b></h4>
+            {{links | safe}}
+        </div>
+        <div class="thankyou">
+            Thank You!
+        </div>
+        <div class="redirect-to-quiz text-center p-3">
+            <p>Want to solve a quiz on what you have learnt so far?</p>
+            <form action="/quiz">
+                <button class="btn bg-primary text-white">Quiz Whiz</button>
+            </form>
+            <div class="loading mt-2"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,119 @@
+.head{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 300px; /* Adjust this value as needed */
+    box-sizing: border-box;
+    padding: 0 1rem;
+}
+.welcome, .explain, .facts, .summary, .links, .thankyou, .forward, .redirect-to-quiz, .questions, .quiz{
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 600px;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+.card{
+    border-radius: 0.5rem;
+    border: none !important;
+    width: 100%;
+    max-width: 600px;
+    min-width: 600px !important;
+    margin: 1rem 0rem ;
+}
+.explain, .facts, .summary, .links, .forward, .redirect-to-quiz, .quiz{
+    background-color: white;
+}
+.facts, .redirect-to-quiz, .quiz{
+    border: 1px solid black;
+}
+.score {
+    z-index: 99999;
+    position: relative;
+}
+.content{
+    padding: 1rem;
+    background-color: rgb(247, 246, 246);
+}
+.welcome, .thankyou{
+    background-color: black;
+    color: white;
+}
+.welcome {
+    line-height: 1.6;
+    font-size: 1.2em;
+}
+.welcome h2 {
+    margin-bottom: 20px;
+}
+.welcome .highlight {
+    color: blue;
+}
+.thankyou, .forward{
+    text-align: center;
+}
+.thankyou{
+    font-size: 3rem;
+}
+.redirect-to-quiz{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%; 
+    width: 100%; 
+}
+.head button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.head button:hover{
+    opacity: 0.6;
+}
+.left{
+    margin-left: 2rem;
+}
+.right{
+    margin-right: 2rem;
+}
+.loading{
+    height: 2rem;
+    width: 2rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><circle fill="%230D6EFD" stroke="%230D6EFD" stroke-width="15" r="15" cx="40" cy="65"><animate attributeName="cy" calcMode="spline" dur="2" values="65;135;65;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.4"></animate></circle><circle fill="%230D6EFD" stroke="%230D6EFD" stroke-width="15" r="15" cx="100" cy="65"><animate attributeName="cy" calcMode="spline" dur="2" values="65;135;65;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.2"></animate></circle><circle fill="%230D6EFD" stroke="%230D6EFD" stroke-width="15" r="15" cx="160" cy="65"><animate attributeName="cy" calcMode="spline" dur="2" values="65;135;65;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="0"></animate></circle></svg>')
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:  rgb(247, 246, 246);
+    font-family: 'Indie Flower';
+}
+.error {
+    text-align: center;
+    background-color: black;
+    padding: 1.2rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+@media screen and (max-width: 600px) {
+    .explain, .facts, .summary, .links{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 630px) {
+    .card{
+        min-width: auto !important;
+    }
+}
