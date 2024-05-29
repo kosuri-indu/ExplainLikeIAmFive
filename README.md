@@ -69,11 +69,8 @@ Developing Explain to Me Like I’m 5 presented us with various challenges. Thes
 
 We're proud of achieving the following milestones:
 
-| Milestone                                           | Description                                  |
-|-----------------------------------------------------|----------------------------------------------|
-| User-friendly and visually appealing interface.     | A design that enhances usability and aesthetics. |
-| Strong and supportive community of users.            | Fostering a welcoming and helpful environment. |
-| Addressing technical challenges and delivering a functional solution. | Overcoming hurdles to provide a working product. |
+- AI integration for personalized learning.
+- Successful error handling.                       
 
 ## What we learned ?
 
