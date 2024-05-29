@@ -29,25 +29,23 @@ We believe that everyone deserves to learn in a way that’s simple and fun. Exp
 
 ## Functionality
 
-<!-- ### Try it out here : https://taska-manager.onrender.com/ -->
-<br>
-To get setup NutriFit locally, follow these steps:
-
 1. Clone the repository:
    
-   bash
+   ```
    git clone https://github.com/kosuri-indu/ExplainLikeIam5.git
+   ```
    
 2. Install the necessary dependencies using npm:
    
-   bash
+   ```
    pip install -r requirements.txt
+   ```
    
-4. Run the application using flask:
-   
-   bash
-   flask run
+3. Run the application using flask:
 
+   ```
+   flask run
+   ```
 
 ## Tech Stack
 
