@@ -30,26 +30,36 @@ We believe that everyone deserves to learn in a way that’s simple and fun. Exp
 
 ## Functionality
 
-To get started with InclusiLearn, follow these simple steps:
+<!-- ### Try it out here : https://taska-manager.onrender.com/ -->
+<br>
+To get setup NutriFit locally, follow these steps:
 
-1. Install the necessary dependencies using npm:
-   bash
-   npm install
+1. Clone the repository:
    
-2. Run the application using node:
    bash
-   node app.js
+   git clone https://github.com/kosuri-indu/NutriFit.git
    
+2. Install the necessary dependencies using npm:
+   
+   bash
+   pip install -r requirements.txt
+   
+3. Add your API_KEYs:
 
-## How we built it
+   Fill your API_KEYs as in .env.example in .env file
+   
+5. Run the application using flask:
+   
+   bash
+   flask run
 
-We brought InclusiLearn to life through a combination of design, coding, and collaboration:
 
-| Aspect        | Tools and Technologies Used                 |
-|---------------|--------------------------------------------|
-| Design        | Wireframes and prototypes in Figma         |
-| Frontend      | HTML, CSS, JavaScript, Bootstrap Framework |
-| Backend       | MongoDB, Express, eJS                      |
+## Tech Stack
+
+| Component        | Technology Stack                           |
+|------------------|--------------------------------------------|
+| *Frontend*     | HTML, CSS, JavaScript, Bootstrap Framework |
+| *Backend*      | Flask, Python, Gemini LLM     |
 
 ## Challenges We Overcame
 
