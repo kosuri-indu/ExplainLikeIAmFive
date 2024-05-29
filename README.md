@@ -81,11 +81,12 @@ Creating Explain to Me Like I’m 5 taught us the importance of making informati
 
 ## What's next for Explain to me like I'm 5?
 
-InclusiLearn is continuously evolving. In the future, we plan to:
+We're excited about the future of Explain to Me Like I’m 5. Here’s what we have planned:
 
 | Future Plans                                       | Description                                |
 |-----------------------------------------------------|--------------------------------------------|
-| Enhance accessibility with ARIA roles.              | Ensuring the platform is usable for all.   |
-| Provide transcriptions for videos and audios for users with hearing disabilities. | Making content more accessible.     |
-| Implement image descriptions for users with visual disabilities. | Enhancing the experience for visually impaired users. |
- 
+| Multilingual Support              | Offer content in multiple languages to reach a global audience. |
+| Advanced Quizzes. | Implement adaptive quizzes that adjust to the user’s skill level.    |
+| Community Features | Add forums and discussion boards for users to share knowledge.|
+| Mobile App Development | Launch a mobile app for learning on the go. |
+| Enhanced User Engagement | Introduce gamification elements to make learning more engaging. |
