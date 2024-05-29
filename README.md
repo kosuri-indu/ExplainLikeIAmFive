@@ -1,4 +1,5 @@
-# Explain Like I'm 5 : Fun Learning for Everyone!
+# Explain Like I'm 5 📘📉 
+### Fun Learning for Everyone!
 
 Welcome to Explain to Me Like I’m 5! Here, we make learning easy and fun. You can explore cool topics, discover interesting facts, read simple summaries, and even take quizzes to test your knowledge. It's like having a friendly teacher who explains everything in a way that's super easy to understand. Get ready to learn and have fun!
 
@@ -29,19 +30,19 @@ We believe that everyone deserves to learn in a way that’s simple and fun. Exp
 
 ## Functionality
 
-1. Clone the repository:
+📌 Clone the repository:
    
    ```
    git clone https://github.com/kosuri-indu/ExplainLikeIam5.git
    ```
    
-2. Install the necessary dependencies using npm:
+📌 Install the necessary dependencies using npm:
    
    ```
    pip install -r requirements.txt
    ```
    
-3. Run the application using flask:
+📌 Run the application using flask:
 
    ```
    flask run
@@ -51,8 +52,8 @@ We believe that everyone deserves to learn in a way that’s simple and fun. Exp
 
 | Component        | Technology Stack                           |
 |------------------|--------------------------------------------|
-| *Frontend*       | HTML, CSS, JavaScript, Bootstrap Framework |
-| *Backend*        | Flask, Python, Gemini LLM     |
+|  Frontend        | HTML, CSS, JavaScript, Bootstrap Framework |
+|  Backend         | Flask, Python, Gemini LLM     |
 
 ## Challenges We Overcame
 
