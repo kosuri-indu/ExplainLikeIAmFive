@@ -7,7 +7,7 @@ Welcome to Explain to Me Like I’m 5! Here, we make learning easy and fun. You 
 
 We get our inspiration from the joy of making learning fun and accessible for everyone. We believe that complex topics can be explained simply, sparking curiosity and a love for learning in all ages.
 
-## What it does ?
+## What does it do?
 
 Explain to Me Like I’m 5 is a user-friendly platform that simplifies learning. It offers:
 
@@ -71,7 +71,7 @@ We're proud of achieving the following milestones:
 
 Creating Explain to Me Like I’m 5 taught us the importance of making information accessible and fun. We learned how to simplify complex topics, engage users of all ages, and enhance our skills in content creation and design.
 
-## What's next for Explain to me like I'm 5?
+## What's next for 'Explain like I'm 5'?
 
 We're excited about the future of Explain to Me Like I’m 5. Here’s what we have planned:
 
@@ -82,3 +82,5 @@ We're excited about the future of Explain to Me Like I’m 5. Here’s what we h
 | Community Features | Add forums and discussion boards for users to share knowledge.|
 | Mobile App Development | Launch a mobile app for learning on the go. |
 | Enhanced User Engagement | Introduce gamification elements to make learning more engaging. |
+
+<br>
