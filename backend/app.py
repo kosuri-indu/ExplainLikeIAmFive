@@ -57,8 +57,8 @@ def explain():
                     return render_template("error.html")
             session['quiz'] = quiz
         except ValueError:
-            # session['error'] = True
-            # session.modified = True
+            session['error'] = True
+            session.modified = True
             return render_template("error.html")
 
     topic = session.get('topic', None)
