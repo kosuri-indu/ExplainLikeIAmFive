@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-width: 300px; /* Adjust this value as needed */
+    min-width: 300px;
     box-sizing: border-box;
     padding: 0 1rem;
 }

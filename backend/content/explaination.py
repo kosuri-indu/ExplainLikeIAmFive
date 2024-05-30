@@ -65,8 +65,3 @@ class ContentAgent:
             return self.to_markdown(result.candidates[0].content.parts[0].text)
         else:
             return result.text
-
-#agent = ContentAgent("machine learning")
-#print(agent.get_explaination())
-#print(agent.get_facts())
-#print(agent.get_summary())
